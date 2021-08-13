@@ -1,0 +1,3 @@
+-- UC5
+select salary from employee_payroll where empname='kartik';
+select * from employee_payroll where startDate between cast('2015-01-05' as date) and date(now());
