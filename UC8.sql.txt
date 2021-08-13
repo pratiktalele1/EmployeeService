@@ -1,0 +1,5 @@
+-- UC8
+alter table employee_payroll add column empphone long;
+alter table employee_payroll add column address varchar(50) default 'india';
+alter table employee_payroll add column department varchar(20) not null;
+desc employee_payroll;
