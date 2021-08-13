@@ -1,0 +1,9 @@
+-- UC11
+create table EmployeeDepartment(empid int not null auto_increment primary key,deptid int not null );
+desc EmployeeDepartment;
+insert into EmployeeDepartment(deptid) values(101);
+insert into EmployeeDepartment(deptid) values(102);
+insert into EmployeeDepartment(deptid) values(103);
+select * from EmployeeDepartment;
+delete from EmployeeDepartment where empid=1;
+desc employee_payroll;
