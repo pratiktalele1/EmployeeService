@@ -1,0 +1,2 @@
+-- UC4
+select * from employee_payroll;
