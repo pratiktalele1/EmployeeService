@@ -1,0 +1,7 @@
+-- UC9
+alter table employee_payroll add column basicpay double;
+alter table employee_payroll add column deductions double;
+alter table employee_payroll add column taxablepay double;
+alter table employee_payroll add column incomtax double;
+alter table employee_payroll add column netpay double;
+desc employee_payroll;
