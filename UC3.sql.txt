@@ -1,0 +1,6 @@
+-- UC3
+insert into employee_payroll(empname,salary,startDate) values('pratik',1200,'2021-11-30');
+insert into employee_payroll(empname,salary,startDate) values('ratik',12000,'2020-9-21');
+insert into employee_payroll(empname,salary,startDate) values('kartik',5263,'2016-5-4');
+insert into employee_payroll(empname,salary,startDate) values('satvik',78965,'2012-5-7');
+insert into employee_payroll(empname,salary,startDate) values('hratik',7412,'2016-1-6');
