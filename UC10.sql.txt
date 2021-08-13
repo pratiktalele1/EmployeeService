@@ -1,0 +1,20 @@
+-- UC10
+insert into employee_payroll(empname,gender,salary,startDate,empphone,address,department,basicpay,deductions,taxablepay,incomtax,netpay) 
+values('ram','M',789654,'2020-05-06',9876543210,'tpoint aurangabad','coumputer',7412,8500,5632,4521,85200);
+
+insert into employee_payroll(empname,gender,salary,startDate,empphone,address,department,basicpay,deductions,taxablepay,incomtax,netpay) 
+values('sham','M',489654,'2022-04-06',7876543210,'cpoint aurangabad','sales and marketing',5412,9500,4632,2521,15200);
+
+insert into employee_payroll(empname,gender,salary,startDate,empphone,address,department,basicpay,deductions,taxablepay,incomtax,netpay) 
+values('seema','F',7489654,'2019-01-21',5876543210,'vpoint aurangabad','sales and marketing',6412,1500,3632,5521,15200);
+
+insert into employee_payroll(empname,gender,salary,startDate,empphone,address,department,basicpay,deductions,taxablepay,incomtax,netpay) 
+values('amar','M',589654,'2002-05-06',6876543210,'gpoint aurangabad','mechanical',5412,5500,1632,5521,95200);
+
+select * from employee_payroll;
+
+update employee_payroll set department='sales and marketing ' where id>1;
+update employee_payroll set department='computer' where id>12 and id <16;
+update employee_payroll set department='mechanical ' where id=16;
+
+alter table employee_payroll modify salary int auto_increment;
