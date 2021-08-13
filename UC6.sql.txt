@@ -1,0 +1,5 @@
+-- UC6
+desc employee_payroll;
+alter table employee_payroll add column gender varchar(1) after empname;
+update employee_payroll set gender='M' where id>=1;
+select * from employee_payroll;
